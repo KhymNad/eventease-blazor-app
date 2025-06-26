@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "od7CN50w8DY=",
+  "success": true,
+  "projectFilePath": "/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Server/EventEase.Server.csproj",
+  "expectedPackageFiles": [
+    "/Users/khymnad/.nuget/packages/microsoft.aspnetcore.openapi/9.0.6/microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "/Users/khymnad/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
