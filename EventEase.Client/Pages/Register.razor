@@ -1,18 +1,67 @@
 @page "/register/{EventName}" 
-<!-- 
-  Defines a route with a URL parameter 'EventName'.
-  When the user navigates to /register/someEvent, 
-  the value 'someEvent' is passed to this component.
--->
+@* Route for dynamic event registration, e.g., /register/Tech%20Conference *@
+
+@using System.ComponentModel.DataAnnotations         @* Used for model validation *@
+@using EventEase.Services                           @* Access AttendanceService to track registrations *@
+@using EventEase.Client.Models                      @* Access the shared RegistrationModel *@
 
 @code {
-    // This parameter binds the URL segment 'EventName' to this property
+    // This parameter binds the {EventName} from the route (e.g., "Tech Conference")
     [Parameter]
-    public string EventName { get; set; } = string.Empty; // Default to empty string to avoid null reference
+    public string EventName { get; set; } = string.Empty;
+
+    // This is the form model bound to the input fields in the form
+    private RegistrationModel FormModel = new();
+
+    // Used to conditionally show a success message after form submission
+    private bool isSubmitted = false;
+
+    // Called when the form is submitted and validation passes
+    private void HandleValidSubmit()
+    {
+        isSubmitted = true;
+
+        // Register this user for the event using AttendanceService
+        AttendanceService.Register(EventName, FormModel);
+    }
+
+    // NOTE: We no longer need to define the RegistrationModel here
+    // since it's imported from EventEase.Client.Models
 }
 
+<!-- Page heading showing which event is being registered for -->
 <h2>Register for @EventName</h2>
-<!-- Shows the event name dynamically in the heading -->
 
-<p>Registration form will go here.</p>
-<!-- Placeholder for the registration form UI -->
+<!-- If form is submitted, show a success message -->
+@if (isSubmitted)
+{
+    <p class="text-success">Thanks for registering, @FormModel.Name!</p>
+}
+else
+{
+    @* Render the registration form using Blazor's EditForm *@
+    <EditForm Model="FormModel" OnValidSubmit="HandleValidSubmit">
+        @* Enables built-in data validation using [Required], [EmailAddress], etc. *@
+        <DataAnnotationsValidator />
+
+        @* Display any validation summary messages at the top of the form *@
+        <ValidationSummary />
+
+        @* Name input field with validation *@
+        <div>
+            <label>Name:</label>
+            <InputText @bind-Value="FormModel.Name" />
+            <ValidationMessage For="@(() => FormModel.Name)" />
+        </div>
+
+        @* Email input field with validation *@
+        <div>
+            <label>Email:</label>
+            <InputText @bind-Value="FormModel.Email" />
+            <ValidationMessage For="@(() => FormModel.Email)" />
+        </div>
+
+        @* Submit button triggers form validation and the HandleValidSubmit method *@
+        <button type="submit">Submit</button>
+    </EditForm>
+}

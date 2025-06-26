@@ -6,8 +6,6 @@
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.aqhezbunpl.wasm
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.d1pzlaz2ez.js
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.js.map
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.wqlb35dfzi.pdb
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.k2nr4r1ulo.wasm
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
@@ -271,7 +269,6 @@
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Win32.Primitives.nt18748s0w.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.z9o6jihhaw.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.w4n6sx9nop.wasm.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.k2nr4r1ulo.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.OpenSsl.rgf4gnhaju.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.Reflection.Emit.1sfjh9emmw.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.CSharp.9gws8s7zmg.wasm.gz
@@ -324,7 +321,6 @@
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.IO.FileSystem.gyxexdekj3.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Serialization.Xml.6heyz9oosd.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.uanr5ywdiz.wasm.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.wqlb35dfzi.pdb.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.Private.Xml.Linq.35ud51k85s.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.IO.Pipelines.jiaey0kmyh.wasm.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/System.ComponentModel.DataAnnotations.k6p4pn9w0l.wasm.gz
@@ -1072,8 +1068,6 @@
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/mtri3v3odk-tjcz0u77k5.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/t03my9how4-tptq2av103.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/roz9rl4xvk-lfu7j35m59.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/c4arci4vl2-k2nr4r1ulo.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/lw525lv00w-wqlb35dfzi.gz
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/staticwebassets.build.json
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/staticwebassets.development.json
@@ -1083,10 +1077,16 @@
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/refint/EventEase.Client.dll
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/EventEase.Client.pdb
 /Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/ref/EventEase.Client.dll
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.usmh5la9nd.pdb
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.ilfkxdcvyl.wasm
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.usmh5la9nd.pdb.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.ilfkxdcvyl.wasm.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/xnkuozrmmo-ilfkxdcvyl.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/1jq5wdt3xl-usmh5la9nd.gz
-/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/q2fqm54c4o-8jb610m371.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.47l9a6v9dt.pdb
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.nob0mp03i6.wasm
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.nob0mp03i6.wasm.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Shared.47l9a6v9dt.pdb.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/c4arci4vl2-nob0mp03i6.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/lw525lv00w-47l9a6v9dt.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.cpnipyp0y4.pdb
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.d3mwsawmmu.wasm
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.cpnipyp0y4.pdb.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/bin/Debug/net9.0/wwwroot/_framework/EventEase.Client.d3mwsawmmu.wasm.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/xnkuozrmmo-d3mwsawmmu.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/1jq5wdt3xl-cpnipyp0y4.gz
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Client/obj/Debug/net9.0/compressed/q2fqm54c4o-m4vy777qrv.gz
