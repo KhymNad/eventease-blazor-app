@@ -1,0 +1,12 @@
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/bin/Debug/net9.0/EventEase.Shared.deps.json
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/bin/Debug/net9.0/EventEase.Shared.dll
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/bin/Debug/net9.0/EventEase.Shared.pdb
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.AssemblyInfoInputs.cache
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.AssemblyInfo.cs
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.csproj.CoreCompileInputs.cache
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.sourcelink.json
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.dll
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/refint/EventEase.Shared.dll
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/EventEase.Shared.pdb
+/Users/khymnad/Personal/Coursera/Microsoft Fullstack Developer/Projects/eventease-blazor-app/EventEase.Shared/obj/Debug/net9.0/ref/EventEase.Shared.dll

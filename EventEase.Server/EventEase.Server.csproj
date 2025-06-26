@@ -14,4 +14,9 @@
     <ProjectReference Include="..\EventEase.Shared\EventEase.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EventEase.Client\EventEase.Client.csproj" />
+  </ItemGroup>
+
+
 </Project>

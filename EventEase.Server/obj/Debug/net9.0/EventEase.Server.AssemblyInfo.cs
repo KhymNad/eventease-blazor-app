@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventEase.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5140e53c972831b96df09f55f9cb9149cc019d77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfc855e66ced6d1a8def22bdc1e7154acb0ff64d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventEase.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventEase.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
