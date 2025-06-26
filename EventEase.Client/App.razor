@@ -6,7 +6,9 @@
     <NotFound>
         <PageTitle>Not found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
+            @* Friendly message for unknown URLs *@
             <p role="alert">Sorry, there's nothing at this address.</p>
+            <a href="/events">Go to Event List</a>
         </LayoutView>
     </NotFound>
 </Router>

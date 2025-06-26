@@ -1,0 +1,44 @@
+@page "/events/{EventName}"
+@using EventEase.Client.Models
+
+<h2>Event Details</h2>
+
+@if (CurrentEvent == null)
+{
+    @* Show error if event not found *@
+    <p class="text-danger">Event '@EventName' not found.</p>
+    <a href="/events">Back to Events List</a>
+}
+else
+{
+    <h3>@CurrentEvent.Name</h3>
+    <p><strong>Date:</strong> @CurrentEvent.Date.ToShortDateString()</p>
+    <p><strong>Location:</strong> @(string.IsNullOrWhiteSpace(CurrentEvent.Location) ? "TBA" : CurrentEvent.Location)</p>
+}
+
+@code {
+    [Parameter]
+    public string EventName { get; set; } = string.Empty;
+
+    private EventModel? CurrentEvent;
+
+    // Use the same event list as EventList for consistency
+    private List<EventModel> Events = new()
+    {
+        new EventModel { Name = "Tech Conference", Date = new DateTime(2025, 7, 15), Location = "New York" },
+        new EventModel { Name = "Health Expo", Date = new DateTime(2025, 8, 10), Location = "Chicago" },
+        new EventModel { Name = "Art Festival", Date = new DateTime(2025, 9, 5), Location = "San Francisco" },
+        new EventModel { Name = "Music Carnival", Date = new DateTime(2025, 10, 20), Location = "Los Angeles" },
+        new EventModel { Name = "Startup Meetup", Date = new DateTime(2025, 11, 15), Location = "Seattle" },
+        new EventModel { Name = "Book Fair", Date = new DateTime(2025, 12, 1), Location = "Boston" }
+    };
+
+    protected override void OnParametersSet()
+    {
+        // Decode the URL (e.g., "Tech%20Conference" or "Tech+Conference")
+        var decodedName = Uri.UnescapeDataString(EventName).Replace('+', ' ');
+
+        // Case-insensitive match
+        CurrentEvent = Events.Find(e => string.Equals(e.Name, decodedName, StringComparison.OrdinalIgnoreCase));
+    }
+}

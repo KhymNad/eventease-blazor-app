@@ -1,15 +1,36 @@
 ﻿@inherits LayoutComponentBase
+<!-- 
+  Inherits from LayoutComponentBase, which allows this component 
+  to act as a layout wrapping other pages/components.
+-->
+
 <div class="page">
+    <!-- Main container for the page layout -->
+
     <div class="sidebar">
+        <!-- Sidebar section for navigation -->
         <NavMenu />
+        <!-- NavMenu component renders the sidebar navigation links -->
     </div>
 
     <main>
+        <!-- Main content area -->
+
         <div class="top-row px-4">
+            <!-- Top row with padding on x-axis -->
             <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            <!-- External link opening in a new tab -->
         </div>
 
+        <nav class="px-4 mb-2">
+            <!-- Navigation links with padding and margin bottom -->
+            <a href="/">Home</a> |
+            <a href="/events">Events</a>
+            <!-- Internal navigation links -->
+        </nav>
+
         <article class="content px-4">
+            <!-- The main content placeholder where the child page content is rendered -->
             @Body
         </article>
     </main>

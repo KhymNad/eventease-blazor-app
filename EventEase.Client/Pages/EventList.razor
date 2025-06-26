@@ -1,0 +1,63 @@
+@page "/events"
+@using EventEase.Client.Models
+@using System.Web
+
+<h2>Event List</h2>
+
+@if (Events == null || Events.Count == 0)
+{
+    <p>No events available.</p>
+}
+else
+{
+    @* Render only the current page of events for performance *@
+    @foreach (var evt in PagedEvents)
+    {
+        <div>
+            <EventCard Event="evt" />
+            @* Use URL encoding to safely handle special characters in event names *@
+            <a href="/events/@HttpUtility.UrlEncode(evt.Name)">Details</a> |
+            <a href="/register/@HttpUtility.UrlEncode(evt.Name)">Register</a>
+            <hr />
+        </div>
+    }
+
+    @* Pagination buttons to navigate through event pages *@
+    <button @onclick="PrevPage" disabled="@(currentPage == 1)">Previous</button>
+    <button @onclick="NextPage" disabled="@(currentPage * pageSize >= Events.Count)">Next</button>
+}
+
+@code {
+    // Sample events list
+    private List<EventModel> Events = new()
+    {
+        new EventModel { Name = "Tech Conference", Date = new DateTime(2025, 7, 15), Location = "New York" },
+        new EventModel { Name = "Health Expo", Date = new DateTime(2025, 8, 10), Location = "Chicago" },
+        // Add more events for realistic pagination testing
+        new EventModel { Name = "Art Festival", Date = new DateTime(2025, 9, 5), Location = "San Francisco" },
+        new EventModel { Name = "Music Carnival", Date = new DateTime(2025, 10, 20), Location = "Los Angeles" },
+        new EventModel { Name = "Startup Meetup", Date = new DateTime(2025, 11, 15), Location = "Seattle" },
+        new EventModel { Name = "Book Fair", Date = new DateTime(2025, 12, 1), Location = "Boston" }
+    };
+
+    // Current page and page size for pagination
+    private int currentPage = 1;
+    private int pageSize = 3;
+
+    // Compute the subset of events for the current page
+    private IEnumerable<EventModel> PagedEvents => Events.Skip((currentPage - 1) * pageSize).Take(pageSize);
+
+    // Navigate to next page, if any
+    private void NextPage()
+    {
+        if ((currentPage * pageSize) < Events.Count)
+            currentPage++;
+    }
+
+    // Navigate to previous page, if possible
+    private void PrevPage()
+    {
+        if (currentPage > 1)
+            currentPage--;
+    }
+}

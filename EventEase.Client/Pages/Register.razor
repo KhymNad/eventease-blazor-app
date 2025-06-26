@@ -1,0 +1,18 @@
+@page "/register/{EventName}" 
+<!-- 
+  Defines a route with a URL parameter 'EventName'.
+  When the user navigates to /register/someEvent, 
+  the value 'someEvent' is passed to this component.
+-->
+
+@code {
+    // This parameter binds the URL segment 'EventName' to this property
+    [Parameter]
+    public string EventName { get; set; } = string.Empty; // Default to empty string to avoid null reference
+}
+
+<h2>Register for @EventName</h2>
+<!-- Shows the event name dynamically in the heading -->
+
+<p>Registration form will go here.</p>
+<!-- Placeholder for the registration form UI -->

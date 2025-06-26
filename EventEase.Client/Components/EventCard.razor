@@ -1,0 +1,24 @@
+@using EventEase.Client.Models
+@using Microsoft.AspNetCore.Components
+
+<!-- Event Card UI -->
+<div class="event-card">
+    @* Validate if Event or important fields are missing or invalid *@
+    @if (Event == null || string.IsNullOrWhiteSpace(Event.Name) || Event.Date == default)
+    {
+        <p class="text-danger">Invalid event data.</p>
+    }
+    else
+    {
+        <h3>@Event.Name</h3>
+        <p><strong>Date:</strong> @Event.Date.ToShortDateString()</p>
+        @* Show 'TBA' if Location is missing *@
+        <p><strong>Location:</strong> @(string.IsNullOrWhiteSpace(Event.Location) ? "TBA" : Event.Location)</p>
+    }
+</div>
+
+@code {
+    // Event parameter passed from parent component
+    [Parameter]
+    public EventModel Event { get; set; } = new EventModel();
+}
